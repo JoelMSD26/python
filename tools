@@ -3,3 +3,21 @@ print("LeBron", "Curry","Durant", sep=" > ")
 
 #acho que funciona se quiser colocar variaveis no meio
 print("The Greatest %s is %s , period. " %("Player", "LeBron James"))
+
+#exercicios 
+#exercicio 1
+dia = 1
+mes = 1
+ano = 2004
+#outra forma -> dia, mes, ano = 1, 1, 2004
+print("Eu nasci em %d/%d/%d " % (dia, mes, ano))
+
+#exercicio 2
+horas = 17
+minutos = 3
+
+print("agora são %d horas e %d minutos" % (horas, minutos))
+
+#exercicio 3
+pi = 3.14159265359
+print("O valor de PI é %.5f " % (pi))
