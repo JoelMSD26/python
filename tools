@@ -1,0 +1,5 @@
+#para separar conteudo
+print("LeBron", "Curry","Durant", sep=" > ")
+
+#acho que funciona se quiser colocar variaveis no meio
+print("The Greatest %s is %s , period. " %("Player", "LeBron James"))
