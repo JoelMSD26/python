@@ -21,3 +21,34 @@ print("agora são %d horas e %d minutos" % (horas, minutos))
 #exercicio 3
 pi = 3.14159265359
 print("O valor de PI é %.5f " % (pi))
+
+
+# para fazer exponenciação usa **
+
+#para fazer a divisão e resultado ser inteiro usa-se duas barras //
+numero = 30 // 7
+print(numero)
+
+#exercicio 1
+
+ano_atual = 2026
+ano_nascimento = 2004
+print("a tua idade é: ", ano_atual - ano_nascimento)
+
+#exercicio 2
+valor_1 = 30
+valor_2 = 40
+valor_3 = 50
+media = (valor_1  + valor_2 + valor_3)/3
+
+print("a media dos valores é:" , media)
+
+#exercicio 3
+
+peso = 67
+altura = 1.73
+# para fazer exponenciação usa **
+
+imc = peso / (altura * altura) #outra forma seria ** 2
+
+print("O IMC é de %2.f" %(imc))
