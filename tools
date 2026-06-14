@@ -52,3 +52,10 @@ altura = 1.73
 imc = peso / (altura * altura) #outra forma seria ** 2
 
 print("O IMC é de %2.f" %(imc))
+
+#casting - converter tipos de variáveis
+txt1 = "5"
+txt2 = "1.7"
+num1 = int(txt1)
+num2 = float(txt2)
+print (num1 + num2)
