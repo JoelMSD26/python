@@ -69,3 +69,18 @@ print("O numero inteiro de %f, é %d" %(num, inteira))
 dinheiro = "6000"
 euros = int(dinheiro) - 1000
 print("Neste momento se tirar mil paus, tenho %d euros na conta" %(euros))
+
+#exercicio 2 - mostrar se a conta está a zeros ou não
+conta = 6000
+zerada = bool(conta)
+
+if (zerada == False):
+    print("A conta está a zeros")
+else:
+    print("A conta não está a zeros")
+
+#exercicio 3 - mostrar a minha altura em numero inteiro
+height = 1.73
+altura = int(height)
+print ("Minha altura é %d metros" %(altura))
+
