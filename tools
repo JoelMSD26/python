@@ -59,3 +59,13 @@ txt2 = "1.7"
 num1 = int(txt1)
 num2 = float(txt2)
 print (num1 + num2)
+
+# converti de decimal para inteiro
+num = 21.45646
+inteira = int(num)
+print("O numero inteiro de %f, é %d" %(num, inteira))
+
+#exercicio 1 - mostra quanto dinheiro tens mas transforma de str para int
+dinheiro = "6000"
+euros = int(dinheiro) - 1000
+print("Neste momento se tirar mil paus, tenho %d euros na conta" %(euros))
