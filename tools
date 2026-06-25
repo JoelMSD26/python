@@ -53,6 +53,8 @@ imc = peso / (altura * altura) #outra forma seria ** 2
 
 print("O IMC é de %2.f" %(imc))
 
+CASTING - CONVERTER TIPOS DE VARIAVEIS
+
 #casting - converter tipos de variáveis
 txt1 = "5"
 txt2 = "1.7"
@@ -83,4 +85,23 @@ else:
 height = 1.73
 altura = int(height)
 print ("Minha altura é %d metros" %(altura))
+
+INPUT
+
+#ler os numeros e dividir os dois
+numba1 = int(input("escreve o primeiro numero: "))
+numba2 = int(input("escreve o segundo numero: "))
+divisao = numba1 / numba2
+print("a divisao dos dois numeros é %f" %(divisao))
+
+
+# ler data e hora
+dia = input("escreve o dia: ")
+mes = input("escreve o mes: ")
+ano = input("escreve o ano: ")
+hora = input("escreve a hora: ")
+minutos = input("escreve os minutos: ")
+segundos = input("escreve os segundos: ")
+
+print("A data é %s/%s/%s e a hora é %s:%s:%s" %(dia, mes, ano, hora, minutos, segundos))
 
