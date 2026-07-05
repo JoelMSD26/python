@@ -105,3 +105,22 @@ segundos = input("escreve os segundos: ")
 
 print("A data é %s/%s/%s e a hora é %s:%s:%s" %(dia, mes, ano, hora, minutos, segundos))
 
+#aprovação de teste de avaliação mediante a nota 0 - 10
+nota = int(input("escreve a nota do teste: "))
+bool_nota = nota >= 7
+
+if (bool_nota == True):
+    print("Aprovado")
+else:
+    print("Reprovado")
+
+#saber se a senha está correta 
+codigo = int(input("escreve o codigo da tua conta: "))
+senha = 25505025
+bool_codigo = codigo == senha
+
+if (bool_codigo == True):
+    print("Acedeu ao sistema com sucesso")
+else:
+    print("Acesso negado ao sistema")
+
