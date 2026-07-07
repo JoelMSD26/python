@@ -124,3 +124,17 @@ if (bool_codigo == True):
 else:
     print("Acesso negado ao sistema")
 
+#slicing - quando se coloca um intervalo de posições, não se inclui o ultimo numero
+var = "morant"
+print(var[0:3])
+
+#ler a string e retirar a utlima letra do nome
+nome = input("Escreve o teu nome: ")
+nome1 = nome[:-1]
+print(nome1)
+
+#ler a string e indicar se tem alguma vogal
+nome = input("Escreve o teu nome: ")
+bool_v = "a" in nome or "e" in nome or "i" in nome or "o" in nome or "u" in nome
+print("O teu nome tem vogal? " , bool_v)
+
