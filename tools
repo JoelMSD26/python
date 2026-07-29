@@ -138,3 +138,79 @@ nome = input("Escreve o teu nome: ")
 bool_v = "a" in nome or "e" in nome or "i" in nome or "o" in nome or "u" in nome
 print("O teu nome tem vogal? " , bool_v)
 
+#receber o saldo bancario e quanto estou a dever, depois dizer se tenho saldo positivo ou negativo
+saldo = float (input("Insira o seu saldo: "))
+divida = float (input("Insira quanto é que deve: "))
+if (saldo >= divida):
+    print("Tenho saldo positivo")
+else:
+    print("Tenho saldo negativo")
+
+#Mostrar o CPF caso senha esteja correta
+CPF = "Cátia - Priscila - Frederico"
+senha = int (input("Insira a sua senha: "))
+if (senha == 25505025):
+    print(CPF)
+else:
+    print("A senha está incorreta")
+
+
+#o que sou de acordo com a idade
+idade = int (input("Insira a sua idade: "))
+if(idade <= 3):
+  print("Sou um bebé.")
+elif(idade <= 13):
+  print("Sou uma criança.")
+elif(idade <= 17):
+  print("Sou um adolescente.")
+elif(idade <= 65):
+  print("Sou um adulto.")
+else:
+  print("Sou um idoso.")
+
+#receber dois numeros e receber a operação que quer fazer
+num1 = int(input("escreve o primeiro numero: "))
+num2 = int(input("escreve o segundo numero: "))
+operacao = input("escreve a operação que quer fazer: ")
+
+if (operacao == "+"):
+    resultado = num1 + num2
+    print("O resultado é: ", resultado)
+elif (operacao == "-"):
+    resultado = num1 - num2
+    print("O resultado é: ", resultado)
+elif (operacao == "*"):
+    resultado = num1 * num2
+    print("O resultado é: ", resultado)
+elif (operacao == "/"):
+    resultado = num1 / num2
+    print("O resultado é: ", resultado)
+else:
+    print("Operação inválida")
+
+#break 
+indice = 10
+while (indice > 0):
+  resto = indice % 2
+  if (resto == 0):
+    print("o número %d é par" % (indice))
+  else:
+    print("o número %d é impar" % (indice))
+    break #vai parar no 9 e dps fazer o print que acabou o while
+  indice -= 1
+print("acabou o while") 
+
+#continue
+indice = 10
+while (indice > 0 ):
+  resto = indice % 2
+  if (resto == 0):
+    print("o número %d é par" % (indice))
+  else:
+    indice -= 1
+    continue
+  indice -= 1
+print("acabou o while")
+#so vai gerar numeros pares até o resto ser 0
+
+
